@@ -152,7 +152,7 @@ queryAuthor(filter: { name: { eq: "Diggy" } } ) {
 |----------|----------------------|
 | `year`, `month`, `day`, or `hour` | `lt`, `le`, `eq`, `ge` and `gt` |
 
-As well as `@search` with no arguments, `DateTime` also allows specifying how the search index should be built: by year, month, day or hour.  `@search` defaults to year, but once you understand your data and query patterns, you might want to changes that like `@search(by: [day])`.
+As well as `@search` with no arguments, `DateTime` also allows specifying how the search index should be built: by year, month, day or hour.  `@search` defaults to year, but once you understand your data and query patterns, you might want to change that like `@search(by: [day])`.
 
 ### Boolean
 
